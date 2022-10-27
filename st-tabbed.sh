@@ -1,2 +1,2 @@
 #!/bin/sh
-tabbed -r 2 st -w '' -e
+tabbed -c -r 2 st -w '' -e
