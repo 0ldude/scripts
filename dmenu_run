@@ -1,0 +1,6 @@
+#!/bin/sh
+export _JAVA_AWT_WM_NONREPARENTING=1
+exec $(dmenu_path | dmenu -hp slock,chromium,electron-mail,email,libreoffice,pcmanfm,screenshot,surf-tabbed,st,text-editor,text-editor-small,virt-manager,zathura,zathura-tabbed "$@")
+
+# Uncomment for the NAVHISTORY patch (and remove the exec above)
+#dmenu_path | dmenu -H "${XDG_CACHE_HOME:-$HOME/.cache/}/dmenu_run.hist" "$@" | ${SHELL:-"/bin/sh"} &
