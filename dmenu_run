@@ -1,6 +1,6 @@
 #!/bin/sh
 export _JAVA_AWT_WM_NONREPARENTING=1
-exec $(dmenu_path | dmenu -hp slock,anki,arandr,arduino-ide,bottles,chromium,crawl-tiles,distrobox,dmenu-emoji,drracket,electron-mail,email,files,flatseal,freecad,geogebra,gimp,heroic,icecat,libreoffice,lua-repl,lxappearance,network,octave-gui,openarena,passmenu,pcmanfm,pomodoro,python-repl,qt5ct,qt6ct,reboot,racket-repl,scheme-repl,screenshot,shutdown,signal-desktop,steam,supertuxcart,surf-tabbed,surf,st,syncthing,telegram-terminal,wireshark-tui,text-editor,text-editor-small,thunderbird,typing-tutor,today,virt-manager,xarchiver,youtube,youtube-small,zathura-tabbed,zathura "$@")
+exec $(dmenu_path | dmenu -hp slock,anki,arandr,arduino-ide,bottles,chromium,crawl-tiles,distrobox,dmenu-emoji,drracket,electron-mail,email,files,flatseal,freecad,geogebra,gimp,heroic,icecat,icedove,libreoffice,lua-repl,lxappearance,network,octave-gui,openarena,passmenu,pcmanfm,pomodoro,python-repl,qt5ct,qt6ct,reboot,racket-repl,scheme-repl,screenshot,shutdown,signal-desktop,steam,supertuxcart,surf-tabbed,surf,st,syncthing,telegram-terminal,wireshark-tui,text-editor,text-editor-small,typing-tutor,today,virt-manager,xarchiver,youtube,youtube-small,zathura-tabbed,zathura "$@")
 
 # Uncomment for the NAVHISTORY patch (and remove the exec above)
 #dmenu_path | dmenu -H "${XDG_CACHE_HOME:-$HOME/.cache/}/dmenu_run.hist" "$@" | ${SHELL:-"/bin/sh"} &
