@@ -1,0 +1,2 @@
+#!/bin/sh
+st -n nchat -t nchat -e nchat
